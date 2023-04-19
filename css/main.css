@@ -501,7 +501,8 @@ p
     display: flex;
     align-items: center;
     position: relative;
-    width: 100%;
+    width:fit-content;
+    overflow: scroll;
   }
   
   .leftImg {
@@ -519,6 +520,7 @@ p
   
   .leftImg:hover {
     transform: translateX(-20%);
+    
   }
   
   .rightText {
